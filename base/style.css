@@ -39,17 +39,22 @@ hr {
 
 li {
   margin-left: -30px;
-  vertical-align: 3px;
+  display: flex;
+  align-items: center;
 }
-
+li img {
+  margin-right: 5px;
+  margin-top: 4px;
+}
 .search_bar {
-  width: 45vw;
+  width: 39vw;
   height: 5vh;
   margin-top: -590px;
-  margin-left: 300px;
+  margin-left: 430px;
   border-radius: 10px;
   border: 1px solid black;
 }
+
 .search {
   margin-left: 94%;
   width: 5%;
@@ -66,25 +71,25 @@ a {
 }
 
 .more {
-  margin-left: 1063px;
+  margin-left: 1125px;
   margin-top: -591px;
-  width: 3%;
+  width: 35px;
 }
 
 .create-1 {
-  margin-left: 1143px;
+  margin-left: 1170px;
   margin-top: -591px;
-  width: 3%;
+  width: 35px;
 }
 .bell {
-  margin-left: 1215px;
+  margin-left: 1220px;
   margin-top: -591px;
-  width: 3%;
+  width: 35px;
 }
 .account {
-  margin-left: 1280px;
+  margin-left: 1275px;
   margin-top: -591px;
-  width: 3%;
+  width: 35px;
 }
 .Thumbnail-1 {
   margin-top: -500px;
@@ -92,17 +97,17 @@ a {
   width: 245px;
 }
 .Thumbnail-2 {
-  margin-top: -218px;
+  margin-top: -202px;
   margin-left: 560px;
   width: 245px;
 }
 .Thumbnail-3 {
-  margin-top: -218px;
+  margin-top: -200px;
   margin-left: 820px;
   width: 245px;
 }
 .Thumbnail-4 {
-  margin-top: -218px;
+  margin-top: -202px;
   margin-left: 1080px;
   width: 245px;
 }
@@ -112,21 +117,47 @@ a {
   width: 245px;
 }
 .Thumbnail-6 {
-  margin-top: -218px;
+  margin-top: -202px;
   margin-left: 560px;
   width: 245px;
 }
 .Thumbnail-7 {
-  margin-top: -218px;
+  margin-top: -216px;
   margin-left: 820px;
   width: 245px;
 }
 .Thumbnail-8 {
-  margin-top: -218px;
+  margin-top: -202px;
   margin-left: 1080px;
   width: 245px;
 }
 .middle {
   width: fit-content;
   height: 10px;
+}
+ span {
+  margin-left:38px;
+  display: flex;
+  width: 200px;
+  height: 5vh;
+}
+.des{
+    margin-top: -38px; 
+}
+.channel{
+    font-size: small;
+    margin-top: -5px;
+}
+.verified{
+    width: 13px;
+    display: flex;
+    margin-left: 167px;
+    margin-top: -27px;
+
+}
+.row_1{
+    margin-top: -5px;
+}
+.row_2{
+    margin-bottom: 5px;
 }
